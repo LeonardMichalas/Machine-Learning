@@ -12,4 +12,4 @@ def nice():
     return json.dumps({"Typ":"Mensch", "Anzahl": 13, "Alter": 4}) 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
