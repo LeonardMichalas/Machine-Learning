@@ -12,6 +12,7 @@ test_idx = [0, 50, 100]
 
 for i in range(len(iris.target)):
     print("Example %d: Label %s, Features %s" % (i, iris.target[i], iris.data[i]))
+    print(("Examples" iris.target[1]))
 
 #training data  
 train_target = np.delete(iris.target, test_idx)
